@@ -1,5 +1,6 @@
 [theme]
-base = 'dark'
+base="dark"
+backgroundColor="#000000"
 
 [client]
-toolbarMode = 'viwer'
+toolbarMode="viwer"
