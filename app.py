@@ -53,9 +53,9 @@ with col2:
      st.write('### Análise Ano a Ano')
      st.write('Olhando apenas para o número de microempresas que abriram:')
      st.write(':ballot_box_with_check: O ano de 2021 apresenta um crescimento de 21% em relação ao ano anterior.')
-     st.write(':ballot_box_with_check: Em em 2022, esse número cresceu 22%.')
+     st.write(':ballot_box_with_check: Em 2022, esse número cresceu 22%.')
      st.write(':ballot_box_with_check: No ano de 2023, o crescimento foi de 28%.')
-     st.write(''':ballot_box_with_check: Já em 2024, a quantidade de microempresas abertas até agora já é maior do que no ano inteiro de 2020.
+     st.write(''':ballot_box_with_check: Já em 2024, a quantidade de microempresas abertas até agora é maior do que no ano inteiro de 2020.
      A média mensal, até agosto, é de 1.178, em comparação com 2020, que foi de 782.
      Se considerarmos apenas o mesmo período, essa média cai para 749.''')
      st.write('Mantendo esse ritmo, podemos fechar o ano com um crescimento de até 51% em relação ao primeiro analisado.')
@@ -63,11 +63,11 @@ with col2:
      st.write(' ')
 with col3:
      st.write(''' 
-     Agora, considerando apenas o número de empresas que foram extintas, 
+     Agora, considerando apenas o número de empresas extintas, 
      observa-se um crescimento constante nos números entre os anos de 2020 até 2023, caindo em 2024, com os dados até o mês de agosto. 
      ''')   
      st.write('''Como as causas não foram investigadas, podem incluir diversos fatores que variam de empresa para empresa.
-          Contudo, vale lembrar que entre 2020 até o início de 2023 fomos fortemente abalados pela pandemia da Covid-19,
+          Contudo, vale lembrar que entre 2020 e o início de 2023 fomos fortemente abalados pela pandemia da Covid-19,
           um dos principais responsáveis pelo fechamento de muitos comércios.''')
 with col4:
      st.image('fechadas.png', caption='flatcon.com', width=400)
@@ -98,12 +98,12 @@ st.caption('Fonte: Base de dados do Cadastro Nacional da Pessoa Jurídica (CNPJ)
 st.write(' ')
 st.write(' ')
 
-st.write('Após analisarmos os números individualmente, devemos agora combinarmos os dois parâmetros.')
+st.write('Após analisarmos os números individualmente, devemos agora combinar os dois parâmetros.')
 st.write('''A diferença entre o número de abertas e extintas é o real aumento de microempresas ativas.
-         Por esse ângulo, o ano com o melhor saldo é 2021, com 7.385 microempresas a mais na cidade, em 2020 esse aumento foi de 6.539,
+         Por esse ângulo, o ano com o melhor saldo é 2021, com 7.385 microempresas a mais na cidade. Em 2020, esse aumento foi de 6.539,
          e em 2022 vai para 6.563.''')
-st.write('''No ano de 2023, embora a quantidade de microempresas abertas tenha sido maior, a cidade ganhou 5.963 microempresas, menos que nos outros anos. 
-         Em 2024, até agora o aumento é 4.512 microempresas a mais, ou seja, mais da metade de 2021 inteiro.''')
+st.write('''No ano de 2023, embora a quantidade de microempresas abertas tenha sido maior, a cidade ganhou 5.963 microempresas, menos do que nos outros anos. 
+         Em 2024, até agora, o aumento é 4.512 microempresas a mais, ou seja, mais da metade de 2021 inteiro.''')
 
 # Lista de todas as atividades
 dfAtividade = pd.read_csv('MEI-Atividade.csv', sep=';', decimal='.', encoding='UTF-8')
