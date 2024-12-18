@@ -50,6 +50,7 @@ col3, col4 = st.columns(2)
 with col1:
      st.write(' ')
      st.write(' ')
+     st.write(' ')
      st.image('abertas.png', caption='pt.vecteezy.com', width=450)
 with col2:
      st.write('### Análise Ano a Ano')
