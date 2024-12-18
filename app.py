@@ -11,14 +11,14 @@ st.write('---')
 
 # Barra lateral
 st.sidebar.success('## •**Aqui você encontra**:mag_right:')
-st.sidebar.write('• Empresas Abertas x Extintas')
-st.sidebar.write('• Análisea Ano a Ano')
-st.sidebar.write('• Atividades com mais empresas')
-st.sidebar.write('• Atividades com menos empresas')                                              
-st.sidebar.write('• Lista completa de atividades')
-st.sidebar.write('• Finalizando')
-st.sidebar.write('• Sobre esta página')
-st.sidebar.write('• Saiba mais')
+st.sidebar.write(' Empresas Abertas x Extintas')
+st.sidebar.write(' Análisea Ano a Ano')
+st.sidebar.write(' Atividades com mais empresas')
+st.sidebar.write(' Atividades com menos empresas')                                              
+st.sidebar.write(' Lista completa de atividades')
+st.sidebar.write(' Finalizando')
+st.sidebar.write(' Sobre esta página')
+st.sidebar.write(' Saiba mais')
     
 # Introdução
 dfAno = pd.read_csv('Dados.csv', sep=';', decimal='.')
@@ -48,7 +48,7 @@ st.write(' ')
 col1, col2 = st.columns(2)
 col3, col4 = st.columns(2)
 with col1:
-     st.image('abertas.png', caption='pt.vecteezy.com', width=550)
+     st.image('abertas.png', caption='pt.vecteezy.com', width=400)
 with col2:
      st.write('### Análise Ano a Ano')
      st.write('Olhando apenas para o número de microempresas que abriram:')
