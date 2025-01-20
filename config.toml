@@ -4,3 +4,4 @@ backgroundColor="#000000"
 
 [client]
 showErrorDetails = "none"
+toolbarMode="viwer"
