@@ -1,0 +1,63 @@
+a{
+    text-decoration: none;
+}
+  
+.stHtml a{
+    border:  none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    inline-size: 20px;
+    background-color: rgba(61, 213, 109, 0.2);
+    font-weight: 600;
+    color: rgb(223, 253, 233);
+    text-align: center;
+}
+
+.stSidebar .stAlert:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.stHtml:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.tooltip {
+    position: relative;
+  }
+
+  .icon{
+    font-size: 20px;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: rgb(223, 253, 233);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+span p{
+    background-color: rgb(86, 153, 216);
+    color: white;
+    border:none;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+span p:hover{
+   box-shadow: blue;
+   transform: scale(1.05);
+}
