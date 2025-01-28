@@ -100,7 +100,6 @@ fig = px.bar(dfAtividade.head(10).sort_values(by='Quantidade'), x='Quantidade',y
              title= 'Top 10 atividades com mais microempresas ativas', color='Quantidade')
 fig.update_xaxes(title = 'Microempresas')
 fig.update_yaxes(title=' ')
-fig.update_layout(titlefont={'family':'Arial','size': 22, 'color': 'white'})
 fig.update_layout(font={'family':'Arial','size': 12, 'color': 'white'})
 st.plotly_chart(fig, use_container_width=True)
 
