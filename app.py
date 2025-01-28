@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-
 # Layout da página
 st.set_page_config(page_title='Empreendedorismo Jundiaí', layout='wide', page_icon= ':coffee:')
 
@@ -36,7 +35,6 @@ fig = px.bar(dfDados, x='Ano', y= ['Abertas','Extintas'], title= 'Empresas Abert
 fig.update_yaxes(title = 'Quantidade (em milhares)', color='white')
 fig.update_xaxes(title = ' ')
 fig.update_layout(font={'family':'Arial','size': 16, 'color': 'white'})
-fig.update_layout(titlefont={'family':'Arial','size': 22, 'color': 'white'})
 fig.update_layout(showlegend=True, legend_title='Empresas')
 fig.update_traces (textfont_size = 12 ,  textangle = 0 ,  textposition = "outside",  cliponaxis = False ) 
 st.plotly_chart(fig)
