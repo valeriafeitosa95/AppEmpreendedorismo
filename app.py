@@ -25,7 +25,7 @@ st.sidebar.html("<a href='#saiba-mais'>Saiba mais</a>")
 # Introdução
 dfDados = pd.read_csv('data/Dados.csv', sep=';', decimal='.')
 st.write("""
-Atualmente a cidade de Jundiaí possui 72.541 empresas, destas 61.356 são microempresas (ME), incluindo a opção MEI e não MEI.
+Até dezembro de 2024, a cidade de Jundiaí possuía 72.541 empresas, destas 61.356 sendo microempresas (ME), incluindo a opção MEI e não MEI.
 Considerando que este total é relativo a todos os anos de dados históricos, a análise a seguir mostrará somente dados a partir de 2020.
 """)
 st.write('---')
