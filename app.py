@@ -173,7 +173,11 @@ st.write(' ')
 st.write(' ')
 st.write(' ')
 st.write('👇 :blue[Baixe os arquivos desta pesquisa e não se esqueça de compartilhar.] ')
-col12, col13 = st.columns(2)
+col12, col13, col14 = st.columns(3)
 with col12:
      st.page_link(page='https://empreendedorismojundiai-arquivos.netlify.app/', label='Clique aqui',
              help='Você será redirecionado para outra página.')
+with col13:
+     st.write('')
+with col14:
+     st.write('')
